@@ -1,18 +1,12 @@
-## Getting Started
+Programação 1 - Exercícios em Java ☕
+Repositório destinado ao armazenamento de exercícios e projetos desenvolvidos durante a disciplina de Programação 1.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+📑 Conteúdo do Repositório
+O projeto está estruturado para cobrir os fundamentos da linguagem Java, incluindo:
 
-## Folder Structure
+Estruturas Condicionais: Uso de if, else e switch case.
+Estruturas de Repetição: Implementações com for e while.
+Manipulação de Dados: Exemplos com Arrays e Matrizes.
+Lógica de Programação: Exercícios práticos de fixação.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Desenvolvido por Rafael — Estudante de ADS
