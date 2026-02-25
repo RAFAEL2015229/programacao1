@@ -1,4 +1,4 @@
-package Execao;
+package Execao_Aula1;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

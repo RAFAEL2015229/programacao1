@@ -1,4 +1,4 @@
-package Execao_Aula3;
+package Execao_Aula4;
 
 public class AritchmetricExceptionCustom extends Exception {
 
