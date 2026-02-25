@@ -1,5 +1,8 @@
 package Banco_dados;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+
 public class Principal {
 
     public static void main(String[] args) {

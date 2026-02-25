@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class Select {
 
@@ -17,6 +18,7 @@ public class Select {
         try {
             Class.forName(driverBanco);
             Connection conexao = DriverManager.getConnection(url, usuario, senha);
+
             PreparedStatement preparedStatement = conexao.prepareStatement(instrucao_Select);
 
             ResultSet rs = preparedStatement.executeQuery();
@@ -31,8 +33,12 @@ public class Select {
 
             System.out.println("Consulta Realizada com Sucesso!");
 
+        } catch (SQLException exception) {
+            exception.printStackTrace();
         } catch (Exception exception) {
             exception.printStackTrace();
+        } finally {
+            System.out.println("Fim do Programa! ");
         }
 
     }
