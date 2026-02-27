@@ -1,0 +1,15 @@
+package Thread.ThreadSemSincronizacao2;
+
+public class MinhaClassComun {
+
+    public void exibir(String msg) {
+        System.out.println("[" + msg + "]");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("]");
+    }
+
+}
